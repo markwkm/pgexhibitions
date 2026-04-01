@@ -31,8 +31,9 @@ $(NAME)-with-notes.pdf: slides-with-notes.tex $(MAINMATTER) Makefile \
 			$(basename $@).out $(basename $@).snm $(basename $@).toc
 
 clean:
-	-rm *.pdf
-	-rm $(NAME).aux $(NAME).log $(NAME).nav $(NAME).out $(NAME).snm $(NAME).toc
-	-rm $(NAME)-with-notes.aux $(NAME)-with-notes.log $(NAME)-with-notes.nav \
-			$(NAME)-with-notes.out $(NAME)-with-notes.snm \
-			$(NAME)-with-notes.toc
+	-rm -f *.pdf
+	-rm -f $(NAME).aux $(NAME).log $(NAME).nav $(NAME).out $(NAME).snm \
+			$(NAME).toc
+	-rm -f $(NAME)-with-notes.aux $(NAME)-with-notes.log \
+			$(NAME)-with-notes.nav $(NAME)-with-notes.out \
+			$(NAME)-with-notes.snm $(NAME)-with-notes.toc
