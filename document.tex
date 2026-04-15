@@ -3,18 +3,55 @@
 \author[Robert Treat \& Mark Wong]{
   Robert Treat\\PostgreSQL Major Contributor\\rob@xzilla.net\\
   %Principal Database Engiener\\Amazon Web Services\\xzilla@amazon.com\\
-  \&\\
   Mark Wong\\PostgreSQL Major Contributor\\markwkm@postgresql.org\\
 }
 \institute[HOW 2026]{Hello Open-source World 2026, Jinan, China}
 \date{2026 April 26-28}
 
 \usepackage[UTF8]{ctex}
+\usepackage{tikz}
+\usepackage{fontspec}
+
+\setmainfont{WesFYW03-Regular}
+\setsansfont{WesFYW03-Regular}
+\setmonofont{WesFYW03-Regular}
 
 \begin{document}
 
-\setbeamercolor{background canvas}{bg=pgbaseblue}
-\frame{\titlepage}
+\setbeamercolor{background canvas}{bg=how2026}
+
+\frame{
+   \begin{tikzpicture}[remember picture,overlay]
+     \node[opacity=1] at (current page.center) {
+       \includegraphics[width=\paperwidth,height=\paperheight]{how2026-ppt-template-EN-title.png}
+     };
+  \end{tikzpicture}
+
+  \vspace{2cm}
+
+  \begin{center}
+    \huge PostgreSQL\textsuperscript{\textregistered} Community Exhibitions
+  \end{center}
+
+  \begin{columns}
+    \begin{column}[T]{.5\textwidth}
+      \begin{center}
+        Robert Treat\\PostgreSQL Major Contributor\\rob@xzilla.net\\
+      \end{center}
+    \end{column}
+    \begin{column}[T]{.5\textwidth}
+      \begin{center}
+        Mark Wong\\PostgreSQL Major Contributor\\markwkm@postgresql.org\\
+      \end{center}
+    \end{column}
+  \end{columns}
+
+  \vspace{1cm}
+
+  \begin{center}
+    2026 April 26-28
+  \end{center}
+}
 
 \setbeamertemplate{footline}[postgres body]
 
@@ -26,6 +63,12 @@
 }
 
 \frame {
+   \begin{tikzpicture}[remember picture,overlay]
+     \node[opacity=1] at (current page.center) {
+       \includegraphics[width=\paperwidth,height=\paperheight]{how2026-ppt-template-EN-chapter.png}
+     };
+  \end{tikzpicture}
+
   \begin{center}
     \huge
     \textbf{Goal}
@@ -61,7 +104,7 @@
   \frametitle{Communities that PostgreSQL visits:}
 
   \begin{columns}
-    \begin{column}{.33\textwidth}
+    \begin{column}[T]{.33\textwidth}
       \begin{itemize}
         \item SREcon NA
         \item PyCon
@@ -72,7 +115,7 @@
         \item Ohio LinuxFest
       \end{itemize}
     \end{column}
-    \begin{column}{.33\textwidth}
+    \begin{column}[T]{.33\textwidth}
       \begin{itemize}
         \item FOSDEM
         \item SCaLE
@@ -83,7 +126,7 @@
         \item SeaGL
       \end{itemize}
     \end{column}
-    \begin{column}{.33\textwidth}
+    \begin{column}[T]{.33\textwidth}
       \begin{itemize}
         \item FOSSY
         \item DevNexus
@@ -97,11 +140,19 @@
 }
 
 \frame {
+   \begin{tikzpicture}[remember picture,overlay]
+     \node[opacity=1] at (current page.center) {
+       \includegraphics[width=\paperwidth,height=\paperheight]{how2026-ppt-template-EN-chapter.png}
+     };
+  \end{tikzpicture}
+
   \Huge
   \begin{center}
-  SWAG
+    \textbf{SWAG}
 
-  Stuff We All Get
+    \vspace{1cm}
+
+    Stuff We All Get
   \end{center}
 }
 
@@ -115,10 +166,10 @@
 {
   \frametitle{Stuff We All Get}
 
-  Not always available but things that have been given away:
+  Not always available:
 
   \begin{columns}
-    \begin{column}{.33\textwidth}
+    \begin{column}[T]{.5\textwidth}
       \begin{itemize}
         \item Stickers
         \item Mugs
@@ -126,7 +177,7 @@
         \item Stress balls
       \end{itemize}
     \end{column}
-    \begin{column}{.33\textwidth}
+    \begin{column}[T]{.5\textwidth}
       \begin{itemize}
         \item Baseball caps
         \item Enameled pins
@@ -137,16 +188,28 @@
 }
 
 \frame {
+   \begin{tikzpicture}[remember picture,overlay]
+     \node[opacity=1] at (current page.center) {
+       \includegraphics[width=\paperwidth,height=\paperheight]{how2026-ppt-template-EN-chapter.png}
+     };
+  \end{tikzpicture}
+
   \Huge
   \begin{center}
-    How to make this all happen?
+    How does this all come together?
   \end{center}
 }
 
 \frame {
+   \begin{tikzpicture}[remember picture,overlay]
+     \node[opacity=1] at (current page.center) {
+       \includegraphics[width=\paperwidth,height=\paperheight]{how2026-ppt-template-EN-chapter.png}
+     };
+  \end{tikzpicture}
+
   \Huge
   \begin{center}
-    Planning
+    \textbf{Planning}
   \end{center}
 }
 
@@ -155,14 +218,14 @@
   \frametitle{Equipment - a.k.a Booth Kit}
 
   \begin{columns}
-    \begin{column}{.5\textwidth}
+    \begin{column}[T]{.5\textwidth}
       \begin{itemize}
-        \item Displays / Blanners
+        \item Displays / Banners
         \item Table cover
         \item SWAG
         \item Uniforms / Outfits
         \begin{itemize}
-          \item Hoodies a.k.a. hooded sweatshirt
+          \item Hoodies a.k.a. hooded sweatshirts
           \item Polo shirts
           \item T-shirts
           \item PostgreSQL branded Lanyard
@@ -170,7 +233,7 @@
         \end{itemize}
       \end{itemize}
     \end{column}
-    \begin{column}{.5\textwidth}
+    \begin{column}[T]{.5\textwidth}
       \begin{itemize}
         \item Flyers
           \begin{itemize}
@@ -205,15 +268,21 @@
 }
 
 \frame {
+   \begin{tikzpicture}[remember picture,overlay]
+     \node[opacity=1] at (current page.center) {
+       \includegraphics[width=\paperwidth,height=\paperheight]{how2026-ppt-template-EN-chapter.png}
+     };
+  \end{tikzpicture}
+
   \Huge
   \begin{center}
-    Budgeting
+    \textbf{Budgeting}
   \end{center}
 }
 
 \frame
 {
-  \frametitle{Budgeting}
+  \frametitle{How much will it cost?}
 
   \begin{itemize}
     \item Cost for the exhibition space
@@ -234,22 +303,28 @@
   \frametitle{How is it funded?}
 
   \begin{itemize}
-    \item PostgreSQL\textsuperscript{\textregistered} Funds Groups
+    \item PostgreSQL\textsuperscript{\textregistered} Funds Groups\\
           \includegraphics[height=1cm]{qr-funds-group.png}
           \url{postgresql.org/about/policies/funds-group/}
-    \item PostgreSQL Europe
+    \item PostgreSQL Europe\\
           \includegraphics[height=1cm]{qr-pgeu.png}
           \url{postgresql.eu}
-    \item United States PostgreSQL Association
+    \item United States PostgreSQL Association\\
           \includegraphics[height=1cm]{qr-pgus.png}
           \url{postgresql.us}
   \end{itemize}
 }
 
 \frame {
+   \begin{tikzpicture}[remember picture,overlay]
+     \node[opacity=1] at (current page.center) {
+       \includegraphics[width=\paperwidth,height=\paperheight]{how2026-ppt-template-EN-chapter.png}
+     };
+  \end{tikzpicture}
+
   \Huge
   \begin{center}
-    Volunteers
+    \textbf{Volunteers}
   \end{center}
 }
 
@@ -274,24 +349,30 @@
 
 \frame
 {
+   \begin{tikzpicture}[remember picture,overlay]
+     \node[opacity=1] at (current page.center) {
+       \includegraphics[width=\paperwidth,height=\paperheight]{how2026-ppt-template-EN-title.png}
+     };
+  \end{tikzpicture}
+
   \begin{center}
-    \Huge Thank you! 谢谢\\
+    \Huge Thank you! 谢谢!\\
     %\Huge Thank you! 谢谢聆听\\
     %\Huge Thank you! 谢谢大家\\
 
     \rule{0.9\textwidth}{1pt}
 
     \large
-    Robert Treat\\
-    PostgreSQL Major Contributor\\
-    rob@xzilla.net\\
+    \textbf{Robert Treat}\\
+    \textbf{PostgreSQL Major Contributor}\\
+    \textbf{rob@xzilla.net}\\
     %Principal Database Engiener\\Amazon Web Services\\xzilla@amazon.com\\
 
-    \&
+    \textbf{\&}
 
-    Mark Wong\\
-    PostgreSQL Major Contributor\\
-    markwkm@postgresql.org
+    \textbf{Mark Wong}\\
+    \textbf{PostgreSQL Major Contributor}\\
+    \textbf{markwkm@postgresql.org}
   \end{center}
 
   \note[item]{This is a note.}
