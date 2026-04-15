@@ -37,3 +37,9 @@ clean:
 	-rm -f $(NAME)-with-notes.aux $(NAME)-with-notes.log \
 			$(NAME)-with-notes.nav $(NAME)-with-notes.out \
 			$(NAME)-with-notes.snm $(NAME)-with-notes.toc
+
+autobuild:
+	while true; do \
+			inotifywait -e modify .; \
+			make; \
+			done
