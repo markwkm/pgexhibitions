@@ -2,49 +2,22 @@
 \subtitle{}
 \author[Robert Treat \& Mark Wong]{
   Robert Treat\\PostgreSQL Major Contributor\\rob@xzilla.net\\
+  \&\\
   %Principal Database Engiener\\Amazon Web Services\\xzilla@amazon.com\\
   Mark Wong\\PostgreSQL Major Contributor\\markwkm@postgresql.org\\
 }
-\institute[HOW 2026]{}
-\date[2026 April 26-28]{}
+\institute[PGConf.dev]{PGConf.dev}
+\date[2026 May 19]{2026 May 19}
 
 \usepackage[UTF8]{ctex}
 \usepackage{tikz}
-\usepackage{fontspec}
-
-\setmainfont[BoldFont = {WesFYW03-Bold}, ItalicFont = {WesFYW03-Bold}]{WesFYW03-Regular}
-\setsansfont[BoldFont = {WesFYW03-Bold}, ItalicFont = {WesFYW03-Bold}]{WesFYW03-Regular}
-\setmonofont[BoldFont = {WesFYW03-Bold}, ItalicFont = {WesFYW03-Bold}]{WesFYW03-Regular}
 
 \begin{document}
 
-\setbeamercolor{background canvas}{bg=how2026}
+\setbeamercolor{background canvas}{bg=pgbaseblue}
 
 \frame{
-   \begin{tikzpicture}[remember picture,overlay]
-     \node[opacity=1] at (current page.center) {
-       \includegraphics[width=\paperwidth,height=\paperheight]{how2026-ppt-template-EN-title.png}
-     };
-  \end{tikzpicture}
-
-  \vspace{2cm}
-
-  \begin{center}
-    \huge PostgreSQL\textsuperscript{\textregistered} Community Exhibitions
-  \end{center}
-
-  \begin{columns}
-    \begin{column}[T]{.5\textwidth}
-      \begin{center}
-        Robert Treat\\PostgreSQL Major Contributor\\rob@xzilla.net\\
-      \end{center}
-    \end{column}
-    \begin{column}[T]{.5\textwidth}
-      \begin{center}
-        Mark Wong\\PostgreSQL Major Contributor\\markwkm@postgresql.org\\
-      \end{center}
-    \end{column}
-  \end{columns}
+   \maketitle
 }
 
 \setbeamertemplate{footline}[postgres body]
@@ -57,12 +30,6 @@
 }
 
 \frame {
-   \begin{tikzpicture}[remember picture,overlay]
-     \node[opacity=1] at (current page.center) {
-       \includegraphics[width=\paperwidth,height=\paperheight]{how2026-ppt-template-EN-chapter.png}
-     };
-  \end{tikzpicture}
-
   \begin{center}
     \huge
     \textbf{Goal}
@@ -134,12 +101,6 @@
 }
 
 \frame {
-   \begin{tikzpicture}[remember picture,overlay]
-     \node[opacity=1] at (current page.center) {
-       \includegraphics[width=\paperwidth,height=\paperheight]{how2026-ppt-template-EN-chapter.png}
-     };
-  \end{tikzpicture}
-
   \Huge
   \begin{center}
     \textbf{SWAG}
@@ -182,12 +143,6 @@
 }
 
 \frame {
-   \begin{tikzpicture}[remember picture,overlay]
-     \node[opacity=1] at (current page.center) {
-       \includegraphics[width=\paperwidth,height=\paperheight]{how2026-ppt-template-EN-chapter.png}
-     };
-  \end{tikzpicture}
-
   \Huge
   \begin{center}
     How does this all come together?
@@ -195,12 +150,6 @@
 }
 
 \frame {
-   \begin{tikzpicture}[remember picture,overlay]
-     \node[opacity=1] at (current page.center) {
-       \includegraphics[width=\paperwidth,height=\paperheight]{how2026-ppt-template-EN-chapter.png}
-     };
-  \end{tikzpicture}
-
   \Huge
   \begin{center}
     \textbf{Logistics}
@@ -266,12 +215,6 @@
 }
 
 \frame {
-   \begin{tikzpicture}[remember picture,overlay]
-     \node[opacity=1] at (current page.center) {
-       \includegraphics[width=\paperwidth,height=\paperheight]{how2026-ppt-template-EN-chapter.png}
-     };
-  \end{tikzpicture}
-
   \Huge
   \begin{center}
     \textbf{Budgeting}
@@ -314,12 +257,6 @@
 }
 
 \frame {
-   \begin{tikzpicture}[remember picture,overlay]
-     \node[opacity=1] at (current page.center) {
-       \includegraphics[width=\paperwidth,height=\paperheight]{how2026-ppt-template-EN-chapter.png}
-     };
-  \end{tikzpicture}
-
   \Huge
   \begin{center}
     \textbf{Volunteers}
@@ -347,33 +284,59 @@
 
 \frame
 {
-   \begin{tikzpicture}[remember picture,overlay]
-     \node[opacity=1] at (current page.center) {
-       \includegraphics[width=\paperwidth,height=\paperheight]{how2026-ppt-template-EN-title.png}
-     };
-  \end{tikzpicture}
-
   \begin{center}
-    \Huge Thank you! 谢谢!\\
-    %\Huge Thank you! 谢谢聆听\\
-    %\Huge Thank you! 谢谢大家\\
+    \Huge Thank you!\\
 
     \rule{0.9\textwidth}{1pt}
 
     \large
-    \textbf{Robert Treat}\\
-    \textbf{PostgreSQL Major Contributor}\\
-    \textbf{rob@xzilla.net}\\
+    Robert Treat\\
+    PostgreSQL Major Contributor\\
+    rob@xzilla.net\\
     %Principal Database Engiener\\Amazon Web Services\\xzilla@amazon.com\\
 
-    \textbf{\&}
+    \&
 
-    \textbf{Mark Wong}\\
-    \textbf{PostgreSQL Major Contributor}\\
-    \textbf{markwkm@postgresql.org}
+    Mark Wong\\
+    PostgreSQL Major Contributor\\
+    markwkm@postgresql.org
   \end{center}
 
   \note[item]{This is a note.}
+}
+
+\frame
+{
+  \frametitle{Open Discussion}
+
+  \begin{columns}
+    \begin{column}[T]{.5\textwidth}
+      Questions:
+      \begin{itemize}
+        \item Other events to get involved in?
+        \item SWAG ideas?
+        \item How to stay in touch?
+      \end{itemize}
+    \end{column}
+    \begin{column}[T]{.5\textwidth}
+      This Calendar year in North America:
+
+      \begin{itemize}
+        \item All Things Open
+      \end{itemize}
+
+      Doing more in Asia-Pacific:
+      \begin{itemize}
+        \item COSCUP
+      \end{itemize}
+
+      Doing more in Europe:
+      \begin{itemize}
+        \item DjangoCon Europe
+        \item Data Stacks
+      \end{itemize}
+    \end{column}
+  \end{columns}
 }
 
 \end{document}
